@@ -1,0 +1,188 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.treinos {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Título de cada treino */
+.treino strong {
+    display: block;
+    font-size: 24px;
+    color: #ffca28;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-bottom: 2px solid #ffca28;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Estilização da tabela */
+.exercise-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Células da tabela */
+.exercise-table td {
+    padding: 16px 12px;
+    border-bottom: 1px solid #333;
+    color: #e0e0e0;
+    vertical-align: middle;
+}
+
+/* Última linha da tabela sem borda */
+.exercise-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Botão de check */
+.exercise-table button.check-btn {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.2s ease, background 0.3s ease;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Hover e clique */
+.exercise-table button.check-btn:hover {
+    background: linear-gradient(135deg, #2bc0e4, #eaecc6);
+    color: #000;
+    transform: scale(1.03);
+}
+
+/* Botão marcado */
+.exercise-table button.check-btn.checked {
+    background: #66bb6a;
+    color: #fff;
+}
+
+/* Estilização genérica de botão */
+.check-btn {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.check-btn:hover {
+    background-color: #e0e0e0;
+    color: #000;
+}
+
+/* Estilo geral para o link do vídeo (com borda padrão) */
+.video-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffca28;
+    color: #121212;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 2px solid #ffca28; /* Borda aplicada */
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
+}
+
+/* Efeito de hover para o link do vídeo */
+.video-link:hover {
+    background-color: #ff9800;
+    color: #121212;
+    transform: scale(1.05);
+    border-color: #ff9800; /* Mudança da borda ao passar o mouse */
+}
+
+/* Garantir que os vídeos fiquem bem organizados e centralizados */
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os vídeos */
+    margin-top: 40px;
+}
+
+/* Contêiner de cada vídeo */
+.video-container {
+    max-width: 320px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffca28;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de hover no contêiner do vídeo */
+.video-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* Títulos dos vídeos */
+.video-container h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#whatsapp-btn {
+    display: block;           /* Torna o botão um bloco */
+    margin: 0 auto;           /* Centraliza horizontalmente */
+    text-align: center;       /* Centraliza o conteúdo de texto dentro do botão */
+    padding: 10px 20px;       /* Ajuste do padding para tornar o botão mais espaçoso */
+    font-size: 16px;          /* Define o tamanho da fonte */
+    background-color: #25D366; /* Cor do fundo do botão do WhatsApp */
+    color: white;             /* Cor do texto */
+    border: none;             /* Remove a borda */
+    border-radius: 5px;       /* Arredonda os cantos */
+    cursor: pointer;         /* Define o cursor como ponteiro quando passa sobre o botão */
+    width: fit-content;       /* Ajusta a largura do botão ao conteúdo */
+}
+
+#whatsapp-btn:hover {
+    background-color: #128C7E; /* Cor de fundo no hover */
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2; /* opcional: cor de fundo para diferenciar */
+    color: #555;               /* opcional: cor do texto */
+    font-size: 14px;           /* opcional: tamanho da fonte */
+}
