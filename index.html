@@ -1,185 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Treino da Natany - RunVision</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Treino da Natany - Semana 1</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="container">
-    <h1>Plano RunVision - Natany Fernandes</h1>
-    <p><strong>Objetivo:</strong> Emagrecimento e Definição</p>
-    <p><strong>Frequência:</strong> 5x por semana | <strong>Duração:</strong> ~1h30m por sessão</p>
+  <header>
+    <h1>🔥 Semana 1 - Treino da Natany</h1>
+    <p>Objetivo: <strong>Emagrecimento com ganho de massa</strong></p>
+  </header>
 
-  <h2>Cronograma com Detalhes</h2>
-<div class="schedule" id="treino-list">
-  <!-- SEMANA 1 -->
-  <div class="treino">
-    <strong>Treino A – Inferiores (ênfase em glúteos)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Agachamento com halteres – 4x12 (Pirâmide)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Avanço no Smith – 3x10 cada perna (Biset)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Stiff com halteres – 4x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Elevação pélvica com barra – 4x15 (Dropset)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Glúteo máquina – 3x12 cada perna</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>6. Abdutora – 3x30 (Rest-pause)</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
+  <main id="treinoContainer">
+    <!-- Treinos gerados dinamicamente pelo script.js -->
+  </main>
 
-  <div class="treino">
-    <strong>Treino B – Superiores (Costas e Bíceps)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Puxada frente – 4x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Remada baixa – 3x12 (Biset)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Remada unilateral halteres – 3x12 cada lado</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Rosca direta barra W – 4x10 (Pirâmide)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Rosca alternada – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>6. Prancha – 3x30s</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
+  <section class="instrucoes">
+    <h2>📌 Instruções da Semana</h2>
+    <ul>
+      <li>Alongar todos os dias com foco em lombar, posterior e glúteos.</li>
+      <li>Usar cinta abdominal leve nos treinos de inferiores se necessário.</li>
+      <li>Evitar impacto (sem corrida intensa ou saltos).</li>
+      <li>Treinar em intensidade leve a moderada.</li>
+      <li>Manter boa hidratação e qualidade do sono.</li>
+    </ul>
+  </section>
 
-  <div class="treino">
-    <strong>Treino C – Fullbody Metabólico</strong>
-    <table class="exercise-table">
-      <tr><td>1. Agachamento com salto – 3x15</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Flexão de braço – 3x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Kettlebell swing – 3x15</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Abdominal canivete – 3x20</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Corda naval (ou corda) – 4x30s</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <!-- SEMANA 2 -->
-  <div class="treino">
-    <strong>Treino A – Inferiores (ênfase posterior)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Cadeira flexora – 4x12 (Dropset)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Stiff com barra – 4x10 (Biset)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Passada com halteres – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Glúteo 4 apoios com caneleira – 4x15</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Elevação pélvica – 4x20 (Isometria final)</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <div class="treino">
-    <strong>Treino B – Superiores (Peito, Ombro e Tríceps)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Supino reto com halteres – 4x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Desenvolvimento ombro máquina – 3x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Elevação lateral – 3x12 (Rest-pause)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Tríceps corda – 3x12 (Dropset)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Tríceps banco – 3x10</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <div class="treino">
-    <strong>Treino C – Cardio HIIT + Core</strong>
-    <table class="exercise-table">
-      <tr><td>1. Esteira: 5min aquecimento + 6 tiros 30s/1min</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Abdominal prancha com toque no ombro – 3x15</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Abdominal remador – 3x20</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Prancha isométrica – 3x40s</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <!-- SEMANA 3 -->
-  <div class="treino">
-    <strong>Treino A – Inferiores (ênfase em glúteos)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Leg press – 4x15 (Pirâmide)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Cadeira abdutora – 4x30 (Rest-pause)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Avanço no step – 3x12 cada perna</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Elevação pélvica – 5x15 (Dropset)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Cadeira extensora – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <div class="treino">
-    <strong>Treino B – Superiores (Costas e Bíceps)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Puxada aberta – 4x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Remada unilateral com halter – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Rosca scott – 3x10 (Rest-pause)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Rosca martelo – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Prancha com elevação de perna – 3x30s</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <div class="treino">
-    <strong>Treino C – Circuito Funcional</strong>
-    <table class="exercise-table">
-      <tr><td>1. Step-up com halteres – 3x12 cada perna</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Burpee – 3x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Agachamento sumô – 3x15</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Kettlebell swing – 3x20</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Abdominal escalador – 3x30s</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <!-- SEMANA 4 -->
-  <div class="treino">
-    <strong>Treino A – Inferiores (força e resistência)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Agachamento barra guiada – 4x8</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Stiff halteres – 4x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Elevação pélvica com pausa – 4x12 (Isometria final)</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Glúteo máquina – 4x15</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Cadeira abdutora – 4x30 (Rest-pause)</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <div class="treino">
-    <strong>Treino B – Superiores (Ombro, Peito e Braços)</strong>
-    <table class="exercise-table">
-      <tr><td>1. Desenvolvimento halteres – 4x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Crucifixo reto – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Tríceps testa – 3x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Rosca alternada – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Elevação lateral com isometria – 3x10</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
-
-  <div class="treino">
-    <strong>Treino C – Fullbody + Core</strong>
-    <table class="exercise-table">
-      <tr><td>1. Agachamento + desenvolvimento – 3x12</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>2. Flexão + remada halteres – 3x10</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>3. Abdominal prancha com elevação de braço – 3x20</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>4. Abdominal infra banco – 3x15</td><td><button class="check-btn">✅</button></td></tr>
-      <tr><td>5. Esteira – 10 min leve</td><td><button class="check-btn">✅</button></td></tr>
-    </table>
-  </div>
+  <section class="feedback">
+    <h2>🧠 Feedback da Semana</h2>
+    <textarea id="feedback" rows="4" placeholder="Como você se sentiu nos treinos desta semana?"></textarea>
+    <button id="salvarFeedback">💾 Salvar Feedback</button>
+  </section>
 </div>
-
-    <button id="whatsapp-btn">📤 Enviar meu progresso pelo WhatsApp</button>
-
-    <h2 style="text-align: center; color: #ffca28;">Vídeos Explicativos das Técnicas</h2>
-    <div class="videos" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-        <div class="video-container" style="text-align: center; max-width: 320px;">
-            <h3 style="color: #fff; font-size: 18px; margin-bottom: 10px;">O que é Dropset e como usar na musculação</h3>
-            <a href="https://www.youtube.com/watch?v=SwWD2kNBj3Q&pp=ygUcVsOtZGVvIEV4cGxpY2F0aXZvIC0gRHJvcHNldA%3D%3D" target="_blank" class="video-link">Assistir no YouTube</a>
-        </div>
-
-        <div class="video-container" style="text-align: center; max-width: 320px;">
-            <h3 style="color: #fff; font-size: 18px; margin-bottom: 10px;">Biset para aumentar a intensidade dos treinos</h3>
-            <a href="https://www.youtube.com/watch?v=bd0V7svOP0E&pp=ygUaVsOtZGVvIEV4cGxpY2F0aXZvIC0gYmlzZXQ%3D" target="_blank" class="video-link">Assistir no YouTube</a>
-        </div>
-
-        <div class="video-container" style="text-align: center; max-width: 320px;">
-            <h3 style="color: #fff; font-size: 18px; margin-bottom: 10px;">Como aplicar a técnica de pirâmide nos treinos</h3>
-            <a href="https://www.youtube.com/watch?v=gk-8zdUXcpI&pp=ygUqVsOtZGVvIEV4cGxpY2F0aXZvIC0gcGlyYW1pZGUgbXVzY3VsYcOnw6Nv" target="_blank" class="video-link">Assistir no YouTube</a>
-        </div>
-
-        <div class="video-container" style="text-align: center; max-width: 320px;">
-            <h3 style="color: #fff; font-size: 18px; margin-bottom: 10px;">O que é o rest-pause e como utilizá-lo</h3>
-            <a href="https://www.youtube.com/watch?v=VByUblTMiI8&pp=ygUsVsOtZGVvIEV4cGxpY2F0aXZvIC0gcmVzdC1wYXVzZSBtdXNjdWxhw6fDo28%3D" target="_blank" class="video-link">Assistir no YouTube</a>
-        </div>
-    </div>
-
-    <footer>
-        <p>© 2025 RunVision. Todos os direitos reservados.</p>
-    </footer>
 
 <script src="script.js"></script>
 </body>
